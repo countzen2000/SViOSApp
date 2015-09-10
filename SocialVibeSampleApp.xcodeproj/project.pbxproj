@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540A098D164B78100030363F /* SocialFreePassGatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A098C164B78100030363F /* SocialFreePassGatingView.m */; };
+		540A098F164B78C40030363F /* watch_or_engage_view.png in Resources */ = {isa = PBXBuildFile; fileRef = 540A098E164B78C40030363F /* watch_or_engage_view.png */; };
+		540A0991164B79C60030363F /* free_pass_view.png in Resources */ = {isa = PBXBuildFile; fileRef = 540A0990164B79C60030363F /* free_pass_view.png */; };
+		540A0994164B7A100030363F /* free_pass_button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 540A0992164B7A100030363F /* free_pass_button_down.png */; };
+		540A0995164B7A100030363F /* free_pass_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 540A0993164B7A100030363F /* free_pass_button.png */; };
+		540A09BC164DCFBD0030363F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 540A09BB164DCFBD0030363F /* Icon.png */; };
+		540A09BE164DCFC30030363F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 540A09BD164DCFC20030363F /* Icon@2x.png */; };
+		540A09C0164DDAAB0030363F /* SocialWatchOrEngageGatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A09BF164DDAAB0030363F /* SocialWatchOrEngageGatingView.m */; };
+		540A09D9165449180030363F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540A09D8165449170030363F /* AdSupport.framework */; };
+		54383CF51678FE880051AB0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54383CF41678FE880051AB0F /* CoreLocation.framework */; };
+		543B16191666BC700011E715 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543B16181666BC700011E715 /* PassKit.framework */; };
+		544796351649D5C8000448CE /* next_article_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 544796341649D5C8000448CE /* next_article_button.png */; };
+		5447963A1649DB22000448CE /* engage_with_sponsor_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 544796381649DB22000448CE /* engage_with_sponsor_button.png */; };
+		5447963B1649DB22000448CE /* watch_video_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 544796391649DB22000448CE /* watch_video_button.png */; };
+		5447963D164AD9A4000448CE /* shroud.png in Resources */ = {isa = PBXBuildFile; fileRef = 5447963C164AD9A4000448CE /* shroud.png */; };
+		54479648164AE3EC000448CE /* SocialTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54479647164AE3EC000448CE /* SocialTemplateViewController.m */; };
+		54AD8CCC16445DEA004CCD3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AD8CCB16445DEA004CCD3E /* UIKit.framework */; };
+		54AD8CCE16445DEA004CCD3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AD8CCD16445DEA004CCD3E /* Foundation.framework */; };
+		54AD8CD016445DEA004CCD3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AD8CCF16445DEA004CCD3E /* CoreGraphics.framework */; };
+		54AD8CD616445DEA004CCD3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8CD416445DEA004CCD3E /* InfoPlist.strings */; };
+		54AD8CD816445DEA004CCD3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD8CD716445DEA004CCD3E /* main.m */; };
+		54AD8CDC16445DEA004CCD3E /* SocialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD8CDB16445DEA004CCD3E /* SocialAppDelegate.m */; };
+		54AD8CDE16445DEA004CCD3E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8CDD16445DEA004CCD3E /* Default.png */; };
+		54AD8CE016445DEA004CCD3E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8CDF16445DEA004CCD3E /* Default@2x.png */; };
+		54AD8CE216445DEA004CCD3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8CE116445DEA004CCD3E /* Default-568h@2x.png */; };
+		54AD8CE516445DEA004CCD3E /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD8CE416445DEA004CCD3E /* SocialViewController.m */; };
+		54AD8CE816445DEA004CCD3E /* SocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8CE616445DEA004CCD3E /* SocialViewController.xib */; };
+		54AD8D0816445ED2004CCD3E /* home_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8D0716445ED2004CCD3E /* home_screen.png */; };
+		54AD8D0C16446162004CCD3E /* home_screen_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8D0B16446162004CCD3E /* home_screen_button.png */; };
+		54AD8D14164465D9004CCD3E /* SocialSectionLandingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD8D12164465D9004CCD3E /* SocialSectionLandingVC.m */; };
+		54AD8D15164465D9004CCD3E /* SocialSectionLandingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8D13164465D9004CCD3E /* SocialSectionLandingVC.xib */; };
+		54AD8D1B164466DC004CCD3E /* section_landing_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8D1A164466DC004CCD3E /* section_landing_screen.png */; };
+		54AD8D3416446E2C004CCD3E /* SocialNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD8D3316446E2C004CCD3E /* SocialNavigationController.m */; };
+		54AD8D3616446EE2004CCD3E /* nav_bar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8D3516446EE2004CCD3E /* nav_bar_icon.png */; };
+		54AD8D4216448092004CCD3E /* SocialArticleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AD8D4016448090004CCD3E /* SocialArticleVC.m */; };
+		54AD8D4316448092004CCD3E /* SocialArticleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8D4116448091004CCD3E /* SocialArticleVC.xib */; };
+		54AD8D4716448AC9004CCD3E /* first_article_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8D4516448AC9004CCD3E /* first_article_screen.png */; };
+		54AD8D4816448AC9004CCD3E /* second_article_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AD8D4616448AC9004CCD3E /* second_article_screen.png */; };
+		54ED597A165D661D00C91A8B /* banner_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ED5979165D661D00C91A8B /* banner_placeholder.png */; };
+		54ED5C1C166423E100C91A8B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ED5C1B166423E100C91A8B /* SystemConfiguration.framework */; };
+		7FA46E4116C0DAF500A6F34A /* SocialVibeMobileSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543B16141666B6E40011E715 /* SocialVibeMobileSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		540A0961164AE9B20030363F /* SocialWatchOrEngageGatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialWatchOrEngageGatingView.h; sourceTree = "<group>"; };
+		540A098B164B780F0030363F /* SocialFreePassGatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialFreePassGatingView.h; sourceTree = "<group>"; };
+		540A098C164B78100030363F /* SocialFreePassGatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialFreePassGatingView.m; sourceTree = "<group>"; };
+		540A098E164B78C40030363F /* watch_or_engage_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watch_or_engage_view.png; path = Assets/watch_or_engage_view.png; sourceTree = "<group>"; };
+		540A0990164B79C60030363F /* free_pass_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = free_pass_view.png; path = Assets/free_pass_view.png; sourceTree = "<group>"; };
+		540A0992164B7A100030363F /* free_pass_button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = free_pass_button_down.png; path = Assets/free_pass_button_down.png; sourceTree = "<group>"; };
+		540A0993164B7A100030363F /* free_pass_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = free_pass_button.png; path = Assets/free_pass_button.png; sourceTree = "<group>"; };
+		540A09BB164DCFBD0030363F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		540A09BD164DCFC20030363F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		540A09BF164DDAAB0030363F /* SocialWatchOrEngageGatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialWatchOrEngageGatingView.m; sourceTree = "<group>"; };
+		540A09D8165449170030363F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		54383CF41678FE880051AB0F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		543B16121666B6E40011E715 /* close_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_button.png; sourceTree = "<group>"; };
+		543B16131666B6E40011E715 /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
+		543B16141666B6E40011E715 /* SocialVibeMobileSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocialVibeMobileSDK.framework; sourceTree = "<group>"; };
+		543B16181666BC700011E715 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		544796341649D5C8000448CE /* next_article_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = next_article_button.png; path = Assets/next_article_button.png; sourceTree = "<group>"; };
+		544796381649DB22000448CE /* engage_with_sponsor_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = engage_with_sponsor_button.png; path = Assets/engage_with_sponsor_button.png; sourceTree = "<group>"; };
+		544796391649DB22000448CE /* watch_video_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watch_video_button.png; path = Assets/watch_video_button.png; sourceTree = "<group>"; };
+		5447963C164AD9A4000448CE /* shroud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shroud.png; path = Assets/shroud.png; sourceTree = "<group>"; };
+		54479646164AE3EC000448CE /* SocialTemplateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialTemplateViewController.h; sourceTree = "<group>"; };
+		54479647164AE3EC000448CE /* SocialTemplateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialTemplateViewController.m; sourceTree = "<group>"; };
+		546DB0961668961900D81E71 /* SocialVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AD8CCB16445DEA004CCD3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54AD8CCD16445DEA004CCD3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54AD8CCF16445DEA004CCD3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54AD8CD316445DEA004CCD3E /* SocialVibeSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialVibeSampleApp-Info.plist"; sourceTree = "<group>"; };
+		54AD8CD516445DEA004CCD3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54AD8CD716445DEA004CCD3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54AD8CD916445DEA004CCD3E /* SocialVibeSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocialVibeSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		54AD8CDA16445DEA004CCD3E /* SocialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialAppDelegate.h; sourceTree = "<group>"; };
+		54AD8CDB16445DEA004CCD3E /* SocialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialAppDelegate.m; sourceTree = "<group>"; };
+		54AD8CDD16445DEA004CCD3E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		54AD8CDF16445DEA004CCD3E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		54AD8CE116445DEA004CCD3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		54AD8CE316445DEA004CCD3E /* SocialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
+		54AD8CE416445DEA004CCD3E /* SocialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
+		54AD8CE716445DEA004CCD3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SocialViewController.xib; sourceTree = "<group>"; };
+		54AD8D0716445ED2004CCD3E /* home_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_screen.png; path = Assets/home_screen.png; sourceTree = "<group>"; };
+		54AD8D0B16446162004CCD3E /* home_screen_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_screen_button.png; path = Assets/home_screen_button.png; sourceTree = "<group>"; };
+		54AD8D11164465D9004CCD3E /* SocialSectionLandingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialSectionLandingVC.h; sourceTree = "<group>"; };
+		54AD8D12164465D9004CCD3E /* SocialSectionLandingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialSectionLandingVC.m; sourceTree = "<group>"; };
+		54AD8D13164465D9004CCD3E /* SocialSectionLandingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialSectionLandingVC.xib; sourceTree = "<group>"; };
+		54AD8D1A164466DC004CCD3E /* section_landing_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = section_landing_screen.png; path = Assets/section_landing_screen.png; sourceTree = "<group>"; };
+		54AD8D3216446E2C004CCD3E /* SocialNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialNavigationController.h; sourceTree = "<group>"; };
+		54AD8D3316446E2C004CCD3E /* SocialNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialNavigationController.m; sourceTree = "<group>"; };
+		54AD8D3516446EE2004CCD3E /* nav_bar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nav_bar_icon.png; path = Assets/nav_bar_icon.png; sourceTree = "<group>"; };
+		54AD8D3F16448090004CCD3E /* SocialArticleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialArticleVC.h; sourceTree = "<group>"; };
+		54AD8D4016448090004CCD3E /* SocialArticleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialArticleVC.m; sourceTree = "<group>"; };
+		54AD8D4116448091004CCD3E /* SocialArticleVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialArticleVC.xib; sourceTree = "<group>"; };
+		54AD8D4516448AC9004CCD3E /* first_article_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first_article_screen.png; path = Assets/first_article_screen.png; sourceTree = "<group>"; };
+		54AD8D4616448AC9004CCD3E /* second_article_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second_article_screen.png; path = Assets/second_article_screen.png; sourceTree = "<group>"; };
+		54ED5979165D661D00C91A8B /* banner_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banner_placeholder.png; path = Assets/banner_placeholder.png; sourceTree = "<group>"; };
+		54ED5C1B166423E100C91A8B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5AA3AC751656F20F008FBADE /* SocialVibeSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SocialVibeSampleApp.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54AD8CC416445DEA004CCD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA46E4116C0DAF500A6F34A /* SocialVibeMobileSDK.framework in Frameworks */,
+				54383CF51678FE880051AB0F /* CoreLocation.framework in Frameworks */,
+				543B16191666BC700011E715 /* PassKit.framework in Frameworks */,
+				54ED5C1C166423E100C91A8B /* SystemConfiguration.framework in Frameworks */,
+				540A09D9165449180030363F /* AdSupport.framework in Frameworks */,
+				54AD8CCC16445DEA004CCD3E /* UIKit.framework in Frameworks */,
+				54AD8CCE16445DEA004CCD3E /* Foundation.framework in Frameworks */,
+				54AD8CD016445DEA004CCD3E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543B16101666B6E40011E715 /* SocialVibeMobileSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				543B16111666B6E40011E715 /* Resources */,
+				543B16141666B6E40011E715 /* SocialVibeMobileSDK.framework */,
+			);
+			name = SocialVibeMobileSDK.embeddedframework;
+			path = SocialVibeSampleApp/Framework/SocialVibeMobileSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		543B16111666B6E40011E715 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				543B16121666B6E40011E715 /* close_button.png */,
+				543B16131666B6E40011E715 /* MRAID.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		546DB09B1668962300D81E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546DB0961668961900D81E71 /* SocialVibe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54AD8CBC16445DEA004CCD3E = {
+			isa = PBXGroup;
+			children = (
+				540A09BD164DCFC20030363F /* Icon@2x.png */,
+				540A09BB164DCFBD0030363F /* Icon.png */,
+				54AD8CD116445DEA004CCD3E /* SocialVibeSampleApp */,
+				54AD8CCA16445DEA004CCD3E /* Frameworks */,
+				546DB09B1668962300D81E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54AD8CCA16445DEA004CCD3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				543B16101666B6E40011E715 /* SocialVibeMobileSDK.embeddedframework */,
+				543B16181666BC700011E715 /* PassKit.framework */,
+				54383CF41678FE880051AB0F /* CoreLocation.framework */,
+				54ED5C1B166423E100C91A8B /* SystemConfiguration.framework */,
+				540A09D8165449170030363F /* AdSupport.framework */,
+				54AD8CCB16445DEA004CCD3E /* UIKit.framework */,
+				54AD8CCD16445DEA004CCD3E /* Foundation.framework */,
+				54AD8CCF16445DEA004CCD3E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54AD8CD116445DEA004CCD3E /* SocialVibeSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				54AD8CDA16445DEA004CCD3E /* SocialAppDelegate.h */,
+				54AD8CDB16445DEA004CCD3E /* SocialAppDelegate.m */,
+				54AD8CE316445DEA004CCD3E /* SocialViewController.h */,
+				54AD8CE416445DEA004CCD3E /* SocialViewController.m */,
+				54AD8CE616445DEA004CCD3E /* SocialViewController.xib */,
+				54AD8CD216445DEA004CCD3E /* Supporting Files */,
+				54AD8D0616445EC0004CCD3E /* Assets */,
+				54AD8D11164465D9004CCD3E /* SocialSectionLandingVC.h */,
+				54AD8D12164465D9004CCD3E /* SocialSectionLandingVC.m */,
+				54AD8D13164465D9004CCD3E /* SocialSectionLandingVC.xib */,
+				54AD8D3F16448090004CCD3E /* SocialArticleVC.h */,
+				54AD8D4016448090004CCD3E /* SocialArticleVC.m */,
+				54AD8D4116448091004CCD3E /* SocialArticleVC.xib */,
+				54AD8D3216446E2C004CCD3E /* SocialNavigationController.h */,
+				54AD8D3316446E2C004CCD3E /* SocialNavigationController.m */,
+				54479646164AE3EC000448CE /* SocialTemplateViewController.h */,
+				54479647164AE3EC000448CE /* SocialTemplateViewController.m */,
+				540A0961164AE9B20030363F /* SocialWatchOrEngageGatingView.h */,
+				540A09BF164DDAAB0030363F /* SocialWatchOrEngageGatingView.m */,
+				540A098B164B780F0030363F /* SocialFreePassGatingView.h */,
+				540A098C164B78100030363F /* SocialFreePassGatingView.m */,
+			);
+			path = SocialVibeSampleApp;
+			sourceTree = "<group>";
+		};
+		54AD8CD216445DEA004CCD3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AA3AC751656F20F008FBADE /* SocialVibeSampleApp.entitlements */,
+				54AD8CD316445DEA004CCD3E /* SocialVibeSampleApp-Info.plist */,
+				54AD8CD416445DEA004CCD3E /* InfoPlist.strings */,
+				54AD8CD716445DEA004CCD3E /* main.m */,
+				54AD8CD916445DEA004CCD3E /* SocialVibeSampleApp-Prefix.pch */,
+				54AD8CDD16445DEA004CCD3E /* Default.png */,
+				54AD8CDF16445DEA004CCD3E /* Default@2x.png */,
+				54AD8CE116445DEA004CCD3E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54AD8D0616445EC0004CCD3E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				54ED5979165D661D00C91A8B /* banner_placeholder.png */,
+				540A098E164B78C40030363F /* watch_or_engage_view.png */,
+				54AD8D4516448AC9004CCD3E /* first_article_screen.png */,
+				540A0992164B7A100030363F /* free_pass_button_down.png */,
+				540A0993164B7A100030363F /* free_pass_button.png */,
+				540A0990164B79C60030363F /* free_pass_view.png */,
+				54AD8D4616448AC9004CCD3E /* second_article_screen.png */,
+				54AD8D0B16446162004CCD3E /* home_screen_button.png */,
+				54AD8D0716445ED2004CCD3E /* home_screen.png */,
+				54AD8D1A164466DC004CCD3E /* section_landing_screen.png */,
+				54AD8D3516446EE2004CCD3E /* nav_bar_icon.png */,
+				544796341649D5C8000448CE /* next_article_button.png */,
+				544796381649DB22000448CE /* engage_with_sponsor_button.png */,
+				544796391649DB22000448CE /* watch_video_button.png */,
+				5447963C164AD9A4000448CE /* shroud.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54AD8CC616445DEA004CCD3E /* SocialVibe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AD8D0016445DEA004CCD3E /* Build configuration list for PBXNativeTarget "SocialVibe" */;
+			buildPhases = (
+				54AD8CC316445DEA004CCD3E /* Sources */,
+				54AD8CC416445DEA004CCD3E /* Frameworks */,
+				54AD8CC516445DEA004CCD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialVibe;
+			productName = SocialVibeSampleApp;
+			productReference = 546DB0961668961900D81E71 /* SocialVibe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54AD8CBE16445DEA004CCD3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SV;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = SocialVibe;
+			};
+			buildConfigurationList = 54AD8CC116445DEA004CCD3E /* Build configuration list for PBXProject "SocialVibeSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54AD8CBC16445DEA004CCD3E;
+			productRefGroup = 54AD8CBC16445DEA004CCD3E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54AD8CC616445DEA004CCD3E /* SocialVibe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54AD8CC516445DEA004CCD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AD8CD616445DEA004CCD3E /* InfoPlist.strings in Resources */,
+				54AD8CDE16445DEA004CCD3E /* Default.png in Resources */,
+				54AD8CE016445DEA004CCD3E /* Default@2x.png in Resources */,
+				54AD8CE216445DEA004CCD3E /* Default-568h@2x.png in Resources */,
+				54AD8CE816445DEA004CCD3E /* SocialViewController.xib in Resources */,
+				54AD8D0816445ED2004CCD3E /* home_screen.png in Resources */,
+				54AD8D0C16446162004CCD3E /* home_screen_button.png in Resources */,
+				54AD8D15164465D9004CCD3E /* SocialSectionLandingVC.xib in Resources */,
+				54AD8D1B164466DC004CCD3E /* section_landing_screen.png in Resources */,
+				54AD8D3616446EE2004CCD3E /* nav_bar_icon.png in Resources */,
+				54AD8D4316448092004CCD3E /* SocialArticleVC.xib in Resources */,
+				54AD8D4716448AC9004CCD3E /* first_article_screen.png in Resources */,
+				54AD8D4816448AC9004CCD3E /* second_article_screen.png in Resources */,
+				544796351649D5C8000448CE /* next_article_button.png in Resources */,
+				5447963A1649DB22000448CE /* engage_with_sponsor_button.png in Resources */,
+				5447963B1649DB22000448CE /* watch_video_button.png in Resources */,
+				5447963D164AD9A4000448CE /* shroud.png in Resources */,
+				540A098F164B78C40030363F /* watch_or_engage_view.png in Resources */,
+				540A0991164B79C60030363F /* free_pass_view.png in Resources */,
+				540A0994164B7A100030363F /* free_pass_button_down.png in Resources */,
+				540A0995164B7A100030363F /* free_pass_button.png in Resources */,
+				540A09BC164DCFBD0030363F /* Icon.png in Resources */,
+				540A09BE164DCFC30030363F /* Icon@2x.png in Resources */,
+				54ED597A165D661D00C91A8B /* banner_placeholder.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54AD8CC316445DEA004CCD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AD8CD816445DEA004CCD3E /* main.m in Sources */,
+				54AD8CDC16445DEA004CCD3E /* SocialAppDelegate.m in Sources */,
+				54AD8CE516445DEA004CCD3E /* SocialViewController.m in Sources */,
+				54AD8D14164465D9004CCD3E /* SocialSectionLandingVC.m in Sources */,
+				54AD8D3416446E2C004CCD3E /* SocialNavigationController.m in Sources */,
+				54AD8D4216448092004CCD3E /* SocialArticleVC.m in Sources */,
+				54479648164AE3EC000448CE /* SocialTemplateViewController.m in Sources */,
+				540A098D164B78100030363F /* SocialFreePassGatingView.m in Sources */,
+				540A09C0164DDAAB0030363F /* SocialWatchOrEngageGatingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54AD8CD416445DEA004CCD3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54AD8CD516445DEA004CCD3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54AD8CE616445DEA004CCD3E /* SocialViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54AD8CE716445DEA004CCD3E /* en */,
+			);
+			name = SocialViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54AD8CFE16445DEA004CCD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 15;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos6.1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		54AD8CFF16445DEA004CCD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 15;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos6.1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		54AD8D0116445DEA004CCD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SocialVibeSampleApp/Framework/SocialVibeMobileSDK.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialVibeSampleApp/SocialVibeSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "SocialVibeSampleApp/SocialVibeSampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54AD8D0216445DEA004CCD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SocialVibeSampleApp/Framework/SocialVibeMobileSDK.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialVibeSampleApp/SocialVibeSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "SocialVibeSampleApp/SocialVibeSampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54AD8CC116445DEA004CCD3E /* Build configuration list for PBXProject "SocialVibeSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AD8CFE16445DEA004CCD3E /* Debug */,
+				54AD8CFF16445DEA004CCD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54AD8D0016445DEA004CCD3E /* Build configuration list for PBXNativeTarget "SocialVibe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AD8D0116445DEA004CCD3E /* Debug */,
+				54AD8D0216445DEA004CCD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54AD8CBE16445DEA004CCD3E /* Project object */;
+}

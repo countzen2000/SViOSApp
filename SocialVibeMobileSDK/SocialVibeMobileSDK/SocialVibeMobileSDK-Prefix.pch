@@ -1,0 +1,15 @@
+//
+// Prefix header for all source files of the 'SocialVibeMobileSDK' target in the 'SocialVibeMobileSDK' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+
+#ifdef DEBUG
+#define DEBUG 1
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define DLog(...) do {} while(0)
+#endif
